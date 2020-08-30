@@ -1,65 +1,92 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ffffff;
-    font-size: 15px;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 /* GOOGLE SEARCH */
 .gmain {
-    margin: 168px auto;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+  margin: 168px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 .glogo {
-    margin: 30px auto 27px;
+  margin: 30px auto 27px;
 }
 .gform {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  flex-flow: column;
 }
 .gsearch {
-    width: 587px;
-    height: 45px;
-    border-radius: 30px;
-    border: solid thin rgb(218, 218, 218);
-    margin-bottom: 30px; 
-    display: flex;
-    align-content: center;
+  width: 587px;
+  height: 45px;
+  border-radius: 30px;
+  border: solid thin rgb(218, 218, 218);
+  margin-bottom: 30px;
+  display: flex;
+  align-content: center;
 }
 .gsearch:hover {
-    box-shadow: 0px 2px 3px 2px rgb(240, 240, 240)
+  box-shadow: 0px 2px 3px 2px rgb(240, 240, 240);
 }
 .searchicon {
-    height: 14px;
-    margin-top: 15px;
-    margin-left: 18px;
-    margin-right: 20px;
+  height: 14px;
+  margin-top: 15px;
+  margin-left: 18px;
+  margin-right: 20px;
 }
 .ginput {
-    width: 520px;
-    height: 45px;
-    border-style: none;
-    background: none;
-    font-size: 1rem;
+  width: 520px;
+  height: 45px;
+  border-style: none;
+  background: none;
+  font-size: 1rem;
 }
 .gbuttons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .searchbtns {
-    background: #f2f2f2;
-    color: #5f6368;
-    margin: 0px 5px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 0.875rem;
+  background: #f2f2f2;
+  color: #5f6368;
+  margin: 0px 5px;
+  padding: 10px 20px;
+  border: solid thin white;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
+.searchbtns:hover {
+  color: #222222;
+  border: solid thin #c6c6c6;
+  background: linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER NAVBAR */
+.ghead {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+.leftcol,
+.rightcol {
+  display: flex;
+  align-items: center;
+}
+.headnav {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.headnav:hover {
+  text-decoration: underline;
 }
