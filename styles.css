@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #ffffff;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6px;
 }
 
 input:focus {
@@ -14,7 +17,7 @@ input:focus {
 
 /* GOOGLE SEARCH */
 .gmain {
-  margin: 168px auto;
+  margin: 110px auto;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -75,7 +78,7 @@ input:focus {
 .ghead {
   display: flex;
   justify-content: space-between;
-  padding: 15px 25px;
+  padding: 10px 25px;
 }
 .leftcol,
 .rightcol {
@@ -86,7 +89,64 @@ input:focus {
   color: #4a4a4a;
   text-decoration: none;
   font-size: 0.8rem;
+  margin-right: 15px;
 }
 .headnav:hover {
+  text-decoration: underline;
+}
+.headserv {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.headbtn {
+  background: linear-gradient(#4285f4, #4484f3, #4285f4);
+  padding: 7px 12px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+  border-radius: 2px;
+}
+.headbtn:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+/* FOOTER NAVBAR */
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.ftrow {
+  background: #f2f2f2;
+  padding: 11px 30px;
+  border-top: solid thin #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftrow ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.ftrow p {
+  color: #6f6f6f;
+}
+
+.ftcol1 .ftnav {
+  margin-right: 25px;
+}
+.ftcol2 .ftnav {
+  margin-left: 25px;
+}
+
+.ftnav {
+  font-size: 0.9rem;
+  color: #5f6368;
+  text-decoration: none;
+}
+.ftnav:hover {
   text-decoration: underline;
 }
