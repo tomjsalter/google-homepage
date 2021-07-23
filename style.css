@@ -1,4 +1,4 @@
-/* Reset page default box model */
+/* Page CSS */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +8,49 @@
 html {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
 }
 
 /* Navigation */
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 25px;
+}
+
+.navitems {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.navgroup-1 li {
+    margin-right: 19px;
+}
+
+.navgroup-2 li {
+    margin-left: 19px;
+}
+
+.navgroup-2 button {
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(66, 133, 244);
+    border: none;
+    border-radius: 2px;
+}
