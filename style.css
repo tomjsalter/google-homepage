@@ -21,7 +21,7 @@ a:hover {
 }
 
 a:visited {
-    color: rgb(0, 0, 0);
+    color: rgba(85, 85, 85, 0.1);
 }
 
 /* Navigation */
@@ -35,7 +35,7 @@ a:visited {
 .navitems {
     list-style-type: none;
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .navgroup-1 li {
@@ -43,7 +43,7 @@ a:visited {
 }
 
 .navgroup-2 li {
-    margin-left: 19px;
+    margin-left: 16px;
 }
 
 .navgroup-2 button {
@@ -53,4 +53,11 @@ a:visited {
     background-color: rgb(66, 133, 244);
     border: none;
     border-radius: 2px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.google-apps {
+    padding-top: 2px;
+    opacity: 0.6;
 }
