@@ -61,3 +61,20 @@ a:visited {
     padding-top: 2px;
     opacity: 0.6;
 }
+
+/* Search function */
+.google-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo {
+    padding: 25px;
+}
+
+.search-function {
+    display: flex;
+    flex-direction: column;
+}
+
