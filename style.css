@@ -78,3 +78,11 @@ a:visited {
     flex-direction: column;
 }
 
+.search-input {
+    margin-bottom: 30px;
+    width: 580px;
+    height: 43px;
+    border-radius: 22px;
+    border: rgba(207, 207, 207, 0.753) solid thin;
+}
+
