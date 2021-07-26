@@ -78,11 +78,17 @@ a:visited {
     flex-direction: column;
 }
 
-.search-input {
-    margin-bottom: 30px;
-    width: 580px;
+.search-entry {
+    display: flex;
+    align-items: center;
+    width: 575px;
     height: 43px;
-    border-radius: 22px;
-    border: rgba(207, 207, 207, 0.753) solid thin;
+    border: solid thin rgba(214, 214, 214, 0.829);
+    border-radius: 25px;
 }
 
+.search-icon {
+    height: 19px;
+    margin: 0 14px;
+    opacity: 0.5;
+}
