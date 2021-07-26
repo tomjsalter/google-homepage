@@ -107,3 +107,21 @@ a:visited {
     outline: none;
 }
 
+.search-buttons {
+    margin: 30px auto;
+    width: 290px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-btn {
+    padding: 11px 15px;
+    border: solid thin transparent;
+    border-radius: 4px;
+    color: rgb(100, 100, 100);
+}
+
+.search-btn:hover {
+    border: solid thin rgba(167, 167, 167, 0.829);
+    color: black;
+}
