@@ -82,9 +82,13 @@ a:visited {
     display: flex;
     align-items: center;
     width: 575px;
-    height: 43px;
+    height: 45px;
     border: solid thin rgba(214, 214, 214, 0.829);
     border-radius: 25px;
+}
+
+.search-entry:hover {
+    box-shadow: 1px 1px 3px 3px rgba(214, 214, 214, 0.3) ;
 }
 
 .search-icon {
@@ -92,3 +96,14 @@ a:visited {
     margin: 0 14px;
     opacity: 0.5;
 }
+
+.search-input {
+    width: 475px;
+    border: none;
+    font-size: 1.3em;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
