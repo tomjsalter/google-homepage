@@ -8,7 +8,13 @@
 html {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 a:link {
@@ -66,7 +72,6 @@ a:visited {
 .google-feature {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -125,6 +130,7 @@ a:visited {
 .search-btn:hover {
     border: solid thin rgba(167, 167, 167, 0.829);
     color: black;
+    background-color: rgba(240, 240, 240, 0.8) ;
 }
 
 
@@ -132,19 +138,22 @@ a:visited {
 .footernav {
     display: flex;
     justify-content: space-between;
-    padding: 15px 30px;
-    background-color: rgba(34, 34, 34, 0.03);
+    padding: 12px 30px;
+    background-color: rgb(242, 242, 242);
     border-top: solid thin rgba(214, 214, 214, 0.3);
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
 }
 
 .footnav-items {
     display: flex;
     list-style-type: none;
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
 
 .footnavgroup-1 li {
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .footnavgroup-2 li {
